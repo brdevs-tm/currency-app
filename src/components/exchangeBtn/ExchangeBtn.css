@@ -1,5 +1,6 @@
 .exchangeBtn {
   display: flex;
-  padding: 20px 40px;
+  padding: 20px 20px;
   background: #000;
+  border-radius: 50%;
 }

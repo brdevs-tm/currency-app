@@ -2,11 +2,14 @@
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  background: transparent;
   color: rgb(60, 60, 60);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
+  border: 2px solid black;
+  border-radius: 10px;
   transition: all 0.5s;
 }
 
@@ -17,6 +20,7 @@
 
 .calcBtn:active {
   transition: all 0.3s;
-  background: blue;
-  color: rgb(255, 255, 255);
+  background: transparent;
+  border: 2px solid black;
+  color: black;
 }
