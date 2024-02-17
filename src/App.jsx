@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { Fragment } from "react";
+import mainContent from "./components/mainContent/MainContent";
+import MainContent from "./components/mainContent/MainContent";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <Fragment>
+      <main>
+        <div className="container">
+          <MainContent />
+        </div>
+      </main>
+    </Fragment>
+  );
+};
 
-export default App
+export default App;

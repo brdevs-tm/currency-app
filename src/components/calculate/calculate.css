@@ -1,0 +1,22 @@
+.calcBtn {
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(60, 60, 60);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  transition: all 0.5s;
+}
+
+.calcBtn:hover {
+  background: #000;
+  color: rgb(255, 255, 255);
+}
+
+.calcBtn:active {
+  transition: all 0.3s;
+  background: blue;
+  color: rgb(255, 255, 255);
+}

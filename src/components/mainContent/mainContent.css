@@ -1,0 +1,41 @@
+.main-content {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  > h1 {
+    color: rgb(31, 34, 97);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    > span {
+      color: rgb(128, 128, 128);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0%;
+    }
+  }
+}
+
+.value-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-currency,
+.second-currency {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
